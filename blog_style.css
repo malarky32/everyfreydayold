@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
+/* Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); }
+/* Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff"); }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "San Francisco", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%; } }
+
+p {
+  margin: 0;
+  color: #313131;
+  font-weight: 400;
+  word-wrap: break-word; }
+
+a {
+  transition: border 0.1s linear, color 0.1s linear, background-color 0.1s linear;
+  -webkit-transition: border 0.1s linear, color 0.1s linear, background-color 0.1s linear;
+  color: #313131;
+  background-color: transparent;
+  text-decoration: none;
+  white-space: nowrap; }
+
+h1 {
+  font-size: 28px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 18px;
+  font-weight: 700; }
+
+.info__button, .info__button--dark {
+  display: block;
+  position: relative;
+  width: 200px;
+  margin: 30px auto auto auto;
+  padding: 11px 24px;
+  color: #05b69a;
+  background: white;
+  border-color: #05b69a;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: 700;
+  line-height: 22px;
+  text-decoration: none; }
+  .info__button:after, .info__button--dark:after {
+    float: right;
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 12px; }
+  .info__button:hover, .info__button--dark:hover {
+    color: white;
+    background-color: #05b69a; }
+  @media (min-width: 768px) {
+    .info__button, .info__button--dark {
+      margin: 40px auto auto auto; } }
+  .info__button--dark {
+    color: white;
+    background: #05b69a;
+    border-color: white; }
+    .info__button--dark:hover {
+      color: #05b69a;
+      background-color: white; }
+    @media (min-width: 768px) {
+      .info__button--dark {
+        margin: 40px auto auto auto; } }
+        
+.container-info {
+    background-color: #05b69a;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 750px;
+    color: white;
+}
